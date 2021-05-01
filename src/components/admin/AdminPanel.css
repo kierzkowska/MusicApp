@@ -1,0 +1,244 @@
+.centerA main h1 {
+    position: relative;
+    padding-top: 9%;
+    left: 655px;
+    width: 560px;
+    font-size: 35px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  a.buT {
+    left: 8%;
+  }
+  a.buT1 {
+    left: 37%;
+  }
+  a.buT2 {
+    left: 65%;
+  }
+  
+  .buttons a {
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-family: "Red Rose", cursive;
+  
+    position: absolute;
+    line-height: 5rem;
+    width: 445px;
+    height: 85px;
+    top: 540px;
+    background: #f8ccdf;
+    border: none;
+    box-shadow: 7px 2px 80px 9px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+  }
+  
+  @media (max-width: 1790px) {
+    .centerA main h1 {
+      padding-top: 9%;
+      left: 475px;
+      width: 460px;
+      font-size: 30px;
+      line-height: 50px;
+    }
+  
+    a.buT {
+      left: 2%;
+      width: 390px;
+    }
+    a.buT1 {
+      left: 35%;
+      width: 360px;
+    }
+    a.buT2 {
+      left: 66%;
+      width: 390px;
+    }
+  
+    .buttons a {
+      /* text-align: center; */
+      font-size: 21px;
+      line-height: 5rem;
+      height: 77px;
+      top: 410px;
+      border-radius: 25px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .centerA main h1 {
+      padding-top: 9%;
+      left: 375px;
+      width: 360px;
+      font-size: 27px;
+      line-height: 50px;
+    }
+  
+    a.buT {
+      left: 2%;
+      width: 330px;
+    }
+    a.buT1 {
+      left: 37%;
+      width: 270px;
+    }
+    a.buT2 {
+      left: 66%;
+      width: 330px;
+    }
+  
+    .buttons a {
+      /* text-align: center; */
+      font-size: 18px;
+      line-height: 4.5rem;
+      height: 75px;
+      top: 370px;
+      border-radius: 25px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .centerA main h1 {
+      padding-top: 14%;
+      left: 315px;
+      width: 260px;
+      font-size: 22px;
+      line-height: 40px;
+    }
+  
+    a.buT {
+      left: 2%;
+      width: 280px;
+    }
+    a.buT1 {
+      left: 39%;
+      width: 170px;
+    }
+    a.buT2 {
+      left: 62%;
+      width: 280px;
+    }
+  
+    .buttons a {
+      /* text-align: center; */
+      font-size: 16px;
+      line-height: 4.5rem;
+      height: 70px;
+      top: 320px;
+      border-radius: 25px;
+    }
+  }
+  @media (max-width: 768px) {
+    .centerA main h1 {
+      padding-top: 9%;
+      left: 235px;
+      width: 200px;
+      font-size: 18px;
+      line-height: 35px;
+    }
+  
+    a.buT {
+      left: 2%;
+      width: 230px;
+    }
+    a.buT1 {
+      left: 41%;
+      width: 130px;
+    }
+    a.buT2 {
+      left: 63%;
+      width: 220px;
+    }
+  
+    .buttons a {
+      /* text-align: center; */
+      font-size: 13px;
+      line-height: 3.9rem;
+      height: 60px;
+      top: 270px;
+      border-radius: 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .centerA main h1 {
+      top: 0%;
+      padding-top: 23%;
+      left: 130px;
+      width: 200px;
+      font-size: 18px;
+      line-height: 35px;
+    }
+  
+    a.buT {
+      left: 21%;
+      width: 230px;
+    }
+    a.buT1 {
+      left: 21%;
+      width: 230px;
+    }
+    a.buT2 {
+      left: 21%;
+      width: 230px;
+    }
+  
+    .buttons a {
+      /* text-align: center; */
+      font-size: 13px;
+      line-height: 3.9rem;
+      height: 60px;
+      top: 270px;
+      border-radius: 20px;
+    }
+    .buttons a:first-child {
+      top: 460px;
+    }
+    .buttons a:last-child {
+      top: 360px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .centerA main h1 {
+      top: 0%;
+      padding-top: 30%;
+      left: 70px;
+      width: 200px;
+      font-size: 16px;
+      line-height: 33px;
+    }
+  
+    a.buT {
+      left: 18%;
+      width: 200px;
+    }
+    a.buT1 {
+      left: 18%;
+      width: 200px;
+    }
+    a.buT2 {
+      left: 18%;
+      width: 200px;
+    }
+  
+    .buttons a {
+      /* text-align: center; */
+      font-size: 11px;
+      line-height: 3.9rem;
+      height: 60px;
+      top: 270px;
+      border-radius: 20px;
+    }
+    .buttons a:first-child {
+      top: 435px;
+    }
+    .buttons a:last-child {
+      top: 350px;
+    }
+  }

@@ -1,0 +1,96 @@
+.pagination {
+    width: 900px;
+  }
+  
+  .page-item,
+  .page-link {
+    float: left;
+  }
+  
+  button.page-link {
+    position: relative;
+    left: 550px;
+    border: solid;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 150px;
+    top: 400px;
+  }
+  
+  @media (max-width: 1790px) {
+    .pagination {
+      width: 800px;
+    }
+  
+    button.page-link {
+      left: 290px;
+      padding: 8px;
+      margin-left: 130px;
+      top: 280px;
+    }
+  }
+  @media (max-width: 1200px) {
+    .pagination {
+      width: 600px;
+    }
+  
+    button.page-link {
+      left: 130px;
+      padding: 7px;
+      margin-left: 100px;
+      top: 250px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .pagination {
+      width: 550px;
+    }
+  
+    button.page-link {
+      left: 120px;
+      height: 30px;
+      padding: 4px;
+      margin-left: 90px;
+      top: 200px;
+    }
+  }
+  @media (max-width: 768px) {
+    .pagination {
+      width: 450px;
+    }
+  
+    button.page-link {
+      left: 60px;
+      padding: 4px;
+      margin-left: 70px;
+      top: 180px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .pagination {
+      width: 350px;
+    }
+  
+    button.page-link {
+      left: 5px;
+      height: 25px;
+      padding: 2px;
+      margin-left: 50px;
+      top: 160px;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .pagination {
+      width: 250px;
+    }
+  
+    button.page-link {
+      left: 4px;
+      margin-left: 40px;
+      top: 130px;
+    }
+  }
+  

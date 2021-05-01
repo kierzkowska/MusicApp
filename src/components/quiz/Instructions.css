@@ -1,0 +1,395 @@
+/*centrum strony czesc lewa*/
+
+main h1.wel-inst {
+    position: relative;
+    padding-top: 7%;
+    left: 33%;
+    width: 560px;
+    font-size: 35px;
+    line-height: 55px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .txt-inst {
+    position: relative;
+    left: 28%;
+    text-align: center;
+    width: 844px;
+    font-size: 23px;
+  }
+  /*zacieniowany kwadrat*/
+  
+  main div.box-inst {
+    position: relative;
+    height: 455.43px;
+    width: 860.02px;
+    left: 28%;
+    top: 26px;
+    background: rgba(103, 146, 175, 0.26);
+    border-radius: 90px;
+  }
+  
+  div.write-inst {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 5%;
+    font-size: 1.6rem;
+    line-height: 35px;
+    text-align: center;
+    color: #2e2828;
+  }
+  
+  div.write-inst span {
+    font-weight: 800;
+  }
+  div.write-inst a.button-inst {
+    position: absolute;
+    line-height: 5rem;
+    width: 466px;
+    height: 80px;
+    left: 110px;
+    top: 185px;
+    background: #f8ccdf;
+    border: none;
+    box-shadow: 10px 4px 100px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+  }
+  
+  div.write-inst a.button-instt {
+    position: absolute;
+    line-height: 3rem;
+    width: 466px;
+    height: 98px;
+    left: 110px;
+    top: 295px;
+    background: #f8ccdf;
+    border: none;
+    box-shadow: 10px 4px 100px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+  }
+  
+  div.write-inst a {
+    display: inline-block;
+    font-size: 39px;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-family: "Red Rose", cursive;
+  }
+  
+  @media (max-width: 1790px) {
+    main h1.wel-inst {
+      padding-top: 6%;
+      left: 30%;
+      width: 540px;
+      font-size: 30px;
+      line-height: 53px;
+    }
+  
+    .txt-inst {
+      left: 23%;
+      width: 804px;
+      font-size: 20px;
+    }
+  
+    main div.box-inst {
+      height: 350px;
+      width: 650px;
+      left: 28%;
+      top: 6px;
+      border-radius: 80px;
+    }
+  
+    div.write-inst {
+      left: 6%;
+      right: 6%;
+      top: 4%;
+      font-size: 1.3rem;
+      line-height: 33px;
+    }
+  
+    div.write-inst a.button-inst {
+      line-height: 4rem;
+      width: 366px;
+      height: 68px;
+      left: 100px;
+      top: 140px;
+      box-shadow: 10px 4px 90px 10px rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+    }
+    div.write-inst a.button-instt {
+      line-height: 2.4rem;
+      width: 366px;
+      height: 78px;
+      left: 100px;
+      top: 230px;
+      box-shadow: 10px 4px 90px 10px rgba(0, 0, 0, 0.4);
+      border-radius: 20px;
+    }
+    div.write-inst a {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    main h1.wel-inst {
+      padding-top: 5%;
+      left: 26%;
+      width: 530px;
+      font-size: 28px;
+      line-height: 50px;
+    }
+  
+    .txt-inst {
+      left: 18%;
+      width: 750px;
+      font-size: 17px;
+    }
+  
+    main div.box-inst {
+      height: 300px;
+      width: 590px;
+      left: 25%;
+      top: 5px;
+      border-radius: 70px;
+    }
+  
+    div.write-inst {
+      left: 5%;
+      right: 5%;
+      top: 3%;
+      font-size: 1.2rem;
+      line-height: 27px;
+    }
+  
+    div.write-inst a.button-inst {
+      line-height: 3.5rem;
+      width: 306px;
+      height: 58px;
+      left: 110px;
+      top: 135px;
+      box-shadow: 9px 3px 90px 9px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a.button-instt {
+      line-height: 2rem;
+      width: 306px;
+      height: 70px;
+      left: 110px;
+      top: 206px;
+      box-shadow: 9px 3px 90px 9px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a {
+      font-size: 28px;
+    }
+  }
+  @media (max-width: 1024px) {
+    main h1.wel-inst {
+      padding-top: 5%;
+      left: 22%;
+      width: 500px;
+      font-size: 26px;
+      line-height: 46px;
+    }
+  
+    .txt-inst {
+      left: 19%;
+      width: 560px;
+      font-size: 16px;
+    }
+  
+    main div.box-inst {
+      height: 230px;
+      width: 530px;
+      left: 21%;
+      top: 5px;
+      border-radius: 50px;
+    }
+  
+    div.write-inst {
+      left: 4%;
+      right: 4%;
+      top: 3%;
+      font-size: 1.1rem;
+      line-height: 23px;
+    }
+  
+    div.write-inst a.button-inst {
+      line-height: 3.9rem;
+      width: 190px;
+      height: 70px;
+      left: 10px;
+      top: 130px;
+      box-shadow: 8px 2px 80px 8px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a.button-instt {
+      line-height: 2rem;
+      width: 276px;
+      height: 70px;
+      left: 210px;
+      top: 130px;
+      box-shadow: 8px 2px 80px 8px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a {
+      font-size: 26px;
+    }
+  }
+  @media (max-width: 768px) {
+    main h1.wel-inst {
+      padding-top: 5%;
+      left: 20%;
+      width: 400px;
+      font-size: 22px;
+      line-height: 38px;
+    }
+  
+    .txt-inst {
+      left: 18%;
+      width: 460px;
+      font-size: 13px;
+    }
+  
+    main div.box-inst {
+      height: 180px;
+      width: 430px;
+      left: 20%;
+      top: 4px;
+      border-radius: 40px;
+    }
+  
+    div.write-inst {
+      left: 3%;
+      right: 3%;
+      top: 5%;
+      font-size: 0.9rem;
+      line-height: 19px;
+    }
+  
+    div.write-inst a.button-inst {
+      line-height: 3rem;
+      width: 160px;
+      height: 50px;
+      left: 6px;
+      top: 100px;
+      box-shadow: 7px 2px 70px 7px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a.button-instt {
+      line-height: 1.5rem;
+      width: 230px;
+      height: 50px;
+      left: 179px;
+      top: 100px;
+      box-shadow: 7px 2px 70px 7px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 600px) {
+    main h1.wel-inst {
+      top: 50px;
+      left: 15%;
+      width: 300px;
+      font-size: 18px;
+      line-height: 18px;
+    }
+  
+    .txt-inst {
+      top: 60px;
+      left: 16%;
+      width: 300px;
+      font-size: 11px;
+    }
+  
+    main div.box-inst {
+      height: 250px;
+      width: 280px;
+      left: 20%;
+      top: 80px;
+    }
+  
+    div.write-inst {
+      top: 4%;
+      font-size: 0.8rem;
+      line-height: 17px;
+    }
+  
+    div.write-inst a.button-inst {
+      line-height: 2.3rem;
+      width: 220px;
+      height: 40px;
+      left: 25px;
+      top: 125px;
+      box-shadow: 6px 2px 60px 6px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a.button-instt {
+      line-height: 1.3rem;
+      width: 220px;
+      height: 45px;
+      left: 25px;
+      top: 175px;
+      box-shadow: 6px 2px 60px 6px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 400px) {
+    main h1.wel-inst {
+      left: 15%;
+      width: 250px;
+      font-size: 16px;
+      line-height: 16px;
+    }
+  
+    .txt-inst {
+      left: 22%;
+      width: 220px;
+      font-size: 10px;
+    }
+  
+    main div.box-inst {
+      height: 200px;
+      width: 230px;
+      left: 19%;
+    }
+  
+    div.write-inst {
+      top: 5%;
+      font-size: 0.7rem;
+      line-height: 15px;
+    }
+  
+    div.write-inst a.button-inst {
+      line-height: 2rem;
+      width: 190px;
+      height: 30px;
+      left: 16px;
+      top: 103px;
+      box-shadow: 5px 2px 50px 5px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a.button-instt {
+      line-height: 1.2rem;
+      width: 190px;
+      height: 40px;
+      left: 16px;
+      top: 140px;
+      box-shadow: 5px 2px 50px 5px rgba(0, 0, 0, 0.4);
+    }
+  
+    div.write-inst a {
+      font-size: 14px;
+    }
+  }
+  

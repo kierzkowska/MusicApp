@@ -1,0 +1,53 @@
+ .auth-options button {
+  position: relative;
+  font-family: "Red Rose", cursive;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  background: none;
+  color: unset;
+  cursor: pointer;
+  padding: 1% 0 1% 1%;
+  left: 80%; 
+}
+
+@media (max-width: 1790px) {
+  .auth-options button {
+    left: 75%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .auth-options button {
+    left: 78%;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1024px) {
+  .auth-options button {
+    left: 79%;
+    font-size: 11px;
+  }
+}
+@media (max-width: 768px) {
+  .auth-options button {
+    left: 80%;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .auth-options button {
+    top: 30px;
+    left: 68%;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 400px) {
+  .auth-options button {
+    top: 10px;
+    left: 65%;
+    font-size: 7px;
+  }
+}
