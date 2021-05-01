@@ -7,7 +7,9 @@ function AuthContextProvider(props) {
   const [loggedIn, setLoggedIn] = useState(undefined);
 
   async function getLoggedIn() {
-    const loggedInRes = await axios.get("https://aplikacja-muzyczna.herokuapp.com/auth/loggedIn");
+    const loggedInRes = await axios.get(
+      "https://aplikacja-muzyczna.herokuapp.com/auth/loggedIn"
+    );
     setLoggedIn(loggedInRes.data);
   }
 
