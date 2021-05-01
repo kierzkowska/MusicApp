@@ -12,7 +12,7 @@ const ScoreDisplay = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [scoresPerPage] = useState(10);
   const getScores = async () => {
-    const res = await axios.get("http://localhost:5000/score/one");
+    const res = await axios.get("https://aplikacja-muzyczna.herokuapp.com/score/one");
     setScores(res.data.slice(0).reverse()); //slice reverse, zeby bylo od najnowszych
   };
   const { loggedIn } = useContext(AuthContext);

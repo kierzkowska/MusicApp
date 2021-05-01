@@ -24,7 +24,7 @@ function Admin() {
       };
 
       await axios.post(
-        "http://localhost:5000/admin/loginA",
+        "https://aplikacja-muzyczna.herokuapp.com/admin/loginA",
         loginData
       );
       await getLoggedIn();

@@ -10,7 +10,7 @@ const Music = () => {
   //
 
   const getTracks = () => {
-    axios.get("http://localhost:5000/music/all").then((res) => {
+    axios.get("https://aplikacja-muzyczna.herokuapp.com/music/all").then((res) => {
       setTracks(res.data);
     });
   };

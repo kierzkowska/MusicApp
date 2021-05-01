@@ -23,7 +23,7 @@ function Login() {
         password,
       };
 
-      await axios.post("http://localhost:5000/auth/login", loginData);
+      await axios.post("https://aplikacja-muzyczna.herokuapp.com/auth/login", loginData);
       await getLoggedIn();
       history.push("/");
     } catch (err) {

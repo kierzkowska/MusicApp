@@ -33,7 +33,7 @@ const AdminScoreDisplay = () => {
     setUrlID(idUrl);
 
     useEffect(() => {
-      axios.get("http://localhost:5000/score/" + urlID).then((res) => {
+      axios.get("https://aplikacja-muzyczna.herokuapp.com/score/" + urlID).then((res) => {
         setScores(res.data);
       });
     }, []);

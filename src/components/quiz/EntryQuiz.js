@@ -13,7 +13,7 @@ export default function Entry() {
 
   useEffect(() => {
     const fetchMusic = () => {
-      axios.get("http://localhost:5000/music/all").then((res) => {
+      axios.get("https://aplikacja-muzyczna.herokuapp.com/music/all").then((res) => {
         setMusic(shuffle(res.data));
         //shuffle do polosowania elementow
       });
@@ -97,7 +97,7 @@ export default function Entry() {
       //do testowania
       //console.log(newScore);
 
-      axios.post("http://localhost:5000/score/", newScore, {
+      axios.post("https://aplikacja-muzyczna.herokuapp.com/score/", newScore, {
         credentials: "include",
       });
 

@@ -9,7 +9,7 @@ const AdminScores = () => {
   const [usersPerPage] = useState(4);
   
   const getUsers = () => {
-    axios.get("http://localhost:5000/auth/all").then((res) => {
+    axios.get("https://aplikacja-muzyczna.herokuapp.com/auth/all").then((res) => {
       setUsers(res.data);
     });
   };

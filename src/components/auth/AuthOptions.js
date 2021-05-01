@@ -9,7 +9,7 @@ function AuthOptions() {
   const history = useHistory();
 
   async function logOut() {
-    await axios.get("http://localhost:5000/auth/logout");
+    await axios.get("https://aplikacja-muzyczna.herokuapp.com/auth/logout");
     await loggedIn;
     history.push("/login");
     window.location.reload();

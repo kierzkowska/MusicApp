@@ -27,7 +27,7 @@ function Register() {
         displayName,
       };
 
-      await axios.post("http://localhost:5000/auth/", registerData);
+      await axios.post("https://aplikacja-muzyczna.herokuapp.com/auth/", registerData);
       await getLoggedIn();
       history.push("/");
     } catch (err) {

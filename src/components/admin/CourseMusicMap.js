@@ -17,7 +17,7 @@ function CourseMusicMap() {
 
   const RedirectCourse = () => {
     console.log(afterAr);
-    axios.get("http://localhost:5000/music/all").then((data) => {
+    axios.get("https://aplikacja-muzyczna.herokuapp.com/music/all").then((data) => {
       let musi = data.data;
       let i = 0;
       setAfterAr(
@@ -37,7 +37,7 @@ function CourseMusicMap() {
             link: afterAr[i].link,
           };
 
-          axios.post("http://localhost:5000/adminMusic/", newMus);
+          axios.post("https://aplikacja-muzyczna.herokuapp.com/adminMusic/", newMus);
         }
         return history.push("/adminPanel");
       } catch (err) {
@@ -47,7 +47,7 @@ function CourseMusicMap() {
   };
 
   const getAllMusic = () => {
-    axios.get("http://localhost:5000/music/all").then((data) => {
+    axios.get("https://aplikacja-muzyczna.herokuapp.com/music/all").then((data) => {
       let allMusic = data.data;
 
       setMusicState(
@@ -66,7 +66,7 @@ function CourseMusicMap() {
   const CheckedTracks = () => {
     try {
       axios
-        .delete("http://localhost:5000/adminMusic/delete")
+        .delete("https://aplikacja-muzyczna.herokuapp.com/adminMusic/delete")
         .then((res) => console.log(res.data));
     } catch (err) {
       console.log("blad");

@@ -12,7 +12,7 @@ export default function AdminCourse() {
 
   useEffect(() => {
     const fetchMusic = () => {
-      axios.get("http://localhost:5000/adminMusic/all").then((res) => {
+      axios.get("https://aplikacja-muzyczna.herokuapp.com/adminMusic/all").then((res) => {
         setMusic(shuffle(res.data));
         //shuffle do polosowania elementow
       });
@@ -89,7 +89,7 @@ export default function AdminCourse() {
       const newScore = {
         scoreText: zmienna,
       };
-      axios.post("http://localhost:5000/score/", newScore);
+      axios.post("https://aplikacja-muzyczna.herokuapp.com/score/", newScore);
       return history.push("/scores");
     } catch (err) {
       history.push("/musiclist");

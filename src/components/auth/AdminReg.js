@@ -25,7 +25,7 @@ function AdminReg() {
         displayName,
       };
 
-      await axios.post("http://localhost:5000/admin/registerA", registerData);
+      await axios.post("https://aplikacja-muzyczna.herokuapp.com/admin/registerA", registerData);
       await getLoggedIn();
       history.push("/adminPanel");
     } catch (err) {
