@@ -1,409 +1,413 @@
 ul.music-tab {
-    position: absolute;
-    left: 26%;
-    top: 304px;
-    width: 1000px;
-    height: 545px;
-    background: rgba(194, 214, 228, 0.26);
+  position: absolute;
+  left: 26%;
+  top: 304px;
+  width: 1000px;
+  height: 545px;
+  background: rgba(194, 214, 228, 0.26);
+  border-radius: 40px;
+}
+
+h1.text-tracks {
+  position: relative;
+  left: 16%;
+  top: 4px;
+}
+
+th {
+  width: 700px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 90px;
+}
+
+td {
+  width: 200px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.btn-course {
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  font-family: "Red Rose", cursive;
+  line-height: 3.4rem;
+  position: relative;
+  left: 5%;
+  width: 205px;
+  height: 55px;
+  background: #9991c2;
+  border: none;
+  box-shadow: 10px 4px 100px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  cursor: pointer;
+}
+.btn-course:focus {
+  background-color: aquamarine;
+}
+
+.btn-course1 {
+  text-align: center;
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  font-family: "Red Rose", cursive;
+  line-height: 3.4rem;
+  position: relative;
+  left: 30%;
+  width: 265px;
+  height: 65px;
+  background: #6879af;
+  border: none;
+  box-shadow: 10px 4px 100px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+p.stepone {
+  position: absolute;
+  left: 120px;
+}
+
+p.steptwo {
+  position: absolute;
+  left: 610px;
+}
+
+@media (max-width: 1790px) {
+  ul.music-tab {
+    left: 15%;
+    top: 235px;
+    width: 840px;
+    height: 475px;
     border-radius: 40px;
   }
-  
+
   h1.text-tracks {
-    position: relative;
-    left: 16%;
-    top: 4px;
+    left: 20%;
+    top: 15px;
+    font-size: 26px;
   }
-  
+
   th {
-    width: 700px;
-    font-size: 28px;
-    text-align: center;
-    line-height: 90px;
-  }
-  
-  td {
-    width: 200px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 25px;
-  }
-  
-  .btn-course {
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 500;
-    color: black;
-    font-family: "Red Rose", cursive;
-    line-height: 3.4rem;
-    position: relative;
-    left: 5%;
-    width: 205px;
-    height: 55px;
-    background: #9991c2;
-    border: none;
-    box-shadow: 10px 4px 100px 10px rgba(0, 0, 0, 0.4);
-    border-radius: 25px;
-  }
-  
-  .btn-course1 {
-    text-align: center;
-    display: inline-block;
+    width: 600px;
     font-size: 25px;
-    text-decoration: none;
-    font-weight: 500;
-    color: black;
-    font-family: "Red Rose", cursive;
+    line-height: 70px;
+  }
+
+  td {
+    width: 100px;
+    font-size: 19px;
+    line-height: 24px;
+  }
+
+  .btn-course {
+    font-size: 19px;
     line-height: 3.4rem;
-    position: relative;
-    left: 30%;
-    width: 265px;
-    height: 65px;
-    background: #6879af;
-    border: none;
-    box-shadow: 10px 4px 100px 10px rgba(0, 0, 0, 0.4);
+    left: 5%;
+    width: 180px;
+    height: 55px;
     border-radius: 25px;
   }
-  
+
+  .btn-course1 {
+    font-size: 24px;
+    line-height: 3.4rem;
+    left: 30%;
+    width: 245px;
+    height: 64px;
+    border-radius: 25px;
+  }
+
   p.stepone {
     position: absolute;
-    left: 120px;
+    left: 105px;
   }
-  
+
   p.steptwo {
     position: absolute;
-    left: 610px;
+    left: 540px;
   }
-  
-  @media (max-width: 1790px) {
-    ul.music-tab {
-      left: 15%;
-      top: 235px;
-      width: 840px;
-      height: 475px;
-      border-radius: 40px;
-    }
-  
-    h1.text-tracks {
-      left: 20%;
-      top: 15px;
-      font-size: 26px;
-    }
-  
-    th {
-      width: 600px;
-      font-size: 25px;
-      line-height: 70px;
-    }
-  
-    td {
-      width: 100px;
-      font-size: 19px;
-      line-height: 24px;
-    }
-  
-    .btn-course {
-      font-size: 19px;
-      line-height: 3.4rem;
-      left: 5%;
-      width: 180px;
-      height: 55px;
-      border-radius: 25px;
-    }
-  
-    .btn-course1 {
-      font-size: 24px;
-      line-height: 3.4rem;
-      left: 30%;
-      width: 245px;
-      height: 64px;
-      border-radius: 25px;
-    }
-  
-    p.stepone {
-      position: absolute;
-      left: 105px;
-    }
-  
-    p.steptwo {
-      position: absolute;
-      left: 540px;
-    }
+}
+@media (max-width: 1200px) {
+  ul.music-tab {
+    left: 14%;
+    top: 175px;
+    width: 770px;
+    height: 425px;
+    border-radius: 40px;
   }
-  @media (max-width: 1200px) {
-    ul.music-tab {
-      left: 14%;
-      top: 175px;
-      width: 770px;
-      height: 425px;
-      border-radius: 40px;
-    }
-  
-    h1.text-tracks {
-      left: 17%;
-      top: 10px;
-      font-size: 24px;
-    }
-  
-    th {
-      width: 450px;
-      font-size: 22px;
-      line-height: 50px;
-    }
-  
-    td {
-      width: 50px;
-      font-size: 17px;
-      line-height: 22px;
-    }
-  
-    .btn-course {
-      font-size: 17px;
-      line-height: 3.3rem;
-      left: 5%;
-      width: 160px;
-      height: 52px;
-      border-radius: 25px;
-    }
-  
-    .btn-course1 {
-      font-size: 22px;
-      line-height: 3.4rem;
-      left: 30%;
-      width: 215px;
-      height: 57px;
-      border-radius: 25px;
-    }
-  
-    p.stepone {
-      position: absolute;
-      left: 98px;
-    }
-  
-    p.steptwo {
-      position: absolute;
-      left: 475px;
-    }
+
+  h1.text-tracks {
+    left: 17%;
+    top: 10px;
+    font-size: 24px;
   }
-  @media (max-width: 1024px) {
-    ul.music-tab {
-      left: 14%;
-      top: 139px;
-      width: 600px;
-      height: 380px;
-      border-radius: 40px;
-    }
-  
-    h1.text-tracks {
-      left: 17%;
-      top: 8px;
-      font-size: 20px;
-    }
-  
-    th {
-      width: 400px;
-      font-size: 18px;
-      line-height: 35px;
-    }
-  
-    td {
-      width: 40px;
-      font-size: 15px;
-      line-height: 19px;
-    }
-  
-    .btn-course {
-      font-size: 14px;
-      line-height: 3rem;
-      left: 3%;
-      width: 130px;
-      height: 48px;
-      border-radius: 20px;
-    }
-  
-    .btn-course1 {
-      font-size: 19px;
-      line-height: 3.4rem;
-      left: 30%;
-      width: 180px;
-      height: 54px;
-      border-radius: 25px;
-    }
-  
-    p.stepone {
-      left: 60px;
-    }
-  
-    p.steptwo {
-      left: 375px;
-    }
+
+  th {
+    width: 450px;
+    font-size: 22px;
+    line-height: 50px;
   }
-  @media (max-width: 768px) {
-    ul.music-tab {
-      left: 14%;
-      top: 104px;
-      width: 470px;
-      height: 325px;
-      border-radius: 40px;
-    }
-  
-    h1.text-tracks {
-      left: 17%;
-      top: 6px;
-      font-size: 15px;
-    }
-  
-    th {
-      width: 300px;
-      font-size: 13px;
-      line-height: 29px;
-    }
-  
-    td {
-      width: 30px;
-      font-size: 12px;
-      line-height: 14px;
-    }
-  
-    .btn-course {
-      font-size: 12px;
-      line-height: 0.9rem;
-      left: 3%;
-      width: 115px;
-      height: 45px;
-      border-radius: 20px;
-    }
-  
-    .btn-course1 {
-      font-size: 16px;
-      line-height: 3rem;
-      left: 25%;
-      width: 150px;
-      height: 46px;
-      border-radius: 20px;
-    }
-  
-    p.stepone {
-      left: 53px;
-      font-size: 13px;
-    }
-  
-    p.steptwo {
-      left: 287px;
-      font-size: 13px;
-    }
+
+  td {
+    width: 50px;
+    font-size: 17px;
+    line-height: 22px;
   }
-  @media (max-width: 600px) {
-    ul.music-tab {
-      left: 14%;
-      top: 134px;
-      width: 320px;
-      height: 325px;
-      border-radius: 40px;
-    }
-  
-    h1.text-tracks {
-      left: 8%;
-      top: 7px;
-      font-size: 13px;
-      padding-bottom: 3%;
-    }
-  
-    th {
-      width: 200px;
-      font-size: 11px;
-      line-height: 28px;
-    }
-  
-    td {
-      width: 20px;
-      font-size: 10px;
-      line-height: 12px;
-    }
-  
-    .btn-course {
-      font-size: 9px;
-      line-height: 0.9rem;
-      left: 3%;
-      width: 85px;
-      height: 35px;
-      border-radius: 20px;
-    }
-  
-    .btn-course1 {
-      font-size: 13px;
-      line-height: 2.5rem;
-      left: 25%;
-      width: 120px;
-      height: 40px;
-      border-radius: 20px;
-    }
-  
-    p.stepone {
-      left: 35px;
-      font-size: 10px;
-    }
-  
-    p.steptwo {
-      left: 207px;
-      font-size: 10px;
-    }
+
+  .btn-course {
+    font-size: 17px;
+    line-height: 3.3rem;
+    left: 5%;
+    width: 160px;
+    height: 52px;
+    border-radius: 25px;
   }
-  @media (max-width: 400px) {
-    ul.music-tab {
-      left: 13%;
-      top: 134px;
-      width: 240px;
-      height: 305px;
-      border-radius: 40px;
-    }
-  
-    h1.text-tracks {
-      left: 7%;
-      top: 7px;
-      font-size: 10px;
-      padding-bottom: 3%;
-    }
-  
-    th {
-      width: 200px;
-      font-size: 9px;
-      line-height: 23px;
-    }
-  
-    td {
-      width: 10px;
-      font-size: 8px;
-      line-height: 10px;
-    }
-  
-    .btn-course {
-      font-size: 8px;
-      line-height: 0.9rem;
-      left: 1%;
-      width: 70px;
-      height: 30px;
-      border-radius: 10px;
-    }
-  
-    .btn-course1 {
-      font-size: 11px;
-      line-height: 2rem;
-      left: 18%;
-      width: 95px;
-      height: 31px;
-      border-radius: 10px;
-    }
-  
-    p.stepone {
-      left: 22px;
-      font-size: 9px;
-    }
-  
-    p.steptwo {
-      left: 147px;
-      font-size: 9px;
-    }
+
+  .btn-course1 {
+    font-size: 22px;
+    line-height: 3.4rem;
+    left: 30%;
+    width: 215px;
+    height: 57px;
+    border-radius: 25px;
   }
-  
+
+  p.stepone {
+    position: absolute;
+    left: 98px;
+  }
+
+  p.steptwo {
+    position: absolute;
+    left: 475px;
+  }
+}
+@media (max-width: 1024px) {
+  ul.music-tab {
+    left: 14%;
+    top: 139px;
+    width: 600px;
+    height: 380px;
+    border-radius: 40px;
+  }
+
+  h1.text-tracks {
+    left: 17%;
+    top: 8px;
+    font-size: 20px;
+  }
+
+  th {
+    width: 400px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  td {
+    width: 40px;
+    font-size: 15px;
+    line-height: 19px;
+  }
+
+  .btn-course {
+    font-size: 14px;
+    line-height: 3rem;
+    left: 3%;
+    width: 130px;
+    height: 48px;
+    border-radius: 20px;
+  }
+
+  .btn-course1 {
+    font-size: 19px;
+    line-height: 3.4rem;
+    left: 30%;
+    width: 180px;
+    height: 54px;
+    border-radius: 25px;
+  }
+
+  p.stepone {
+    left: 60px;
+  }
+
+  p.steptwo {
+    left: 375px;
+  }
+}
+@media (max-width: 768px) {
+  ul.music-tab {
+    left: 14%;
+    top: 104px;
+    width: 470px;
+    height: 325px;
+    border-radius: 40px;
+  }
+
+  h1.text-tracks {
+    left: 17%;
+    top: 6px;
+    font-size: 15px;
+  }
+
+  th {
+    width: 300px;
+    font-size: 13px;
+    line-height: 29px;
+  }
+
+  td {
+    width: 30px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .btn-course {
+    font-size: 12px;
+    line-height: 0.9rem;
+    left: 3%;
+    width: 115px;
+    height: 45px;
+    border-radius: 20px;
+  }
+
+  .btn-course1 {
+    font-size: 16px;
+    line-height: 3rem;
+    left: 25%;
+    width: 150px;
+    height: 46px;
+    border-radius: 20px;
+  }
+
+  p.stepone {
+    left: 53px;
+    font-size: 13px;
+  }
+
+  p.steptwo {
+    left: 287px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 600px) {
+  ul.music-tab {
+    left: 14%;
+    top: 134px;
+    width: 320px;
+    height: 325px;
+    border-radius: 40px;
+  }
+
+  h1.text-tracks {
+    left: 8%;
+    top: 7px;
+    font-size: 13px;
+    padding-bottom: 3%;
+  }
+
+  th {
+    width: 200px;
+    font-size: 11px;
+    line-height: 28px;
+  }
+
+  td {
+    width: 20px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .btn-course {
+    font-size: 9px;
+    line-height: 0.9rem;
+    left: 3%;
+    width: 85px;
+    height: 35px;
+    border-radius: 20px;
+  }
+
+  .btn-course1 {
+    font-size: 13px;
+    line-height: 2.5rem;
+    left: 25%;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  p.stepone {
+    left: 35px;
+    font-size: 10px;
+  }
+
+  p.steptwo {
+    left: 207px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 400px) {
+  ul.music-tab {
+    left: 13%;
+    top: 134px;
+    width: 240px;
+    height: 305px;
+    border-radius: 40px;
+  }
+
+  h1.text-tracks {
+    left: 7%;
+    top: 7px;
+    font-size: 10px;
+    padding-bottom: 3%;
+  }
+
+  th {
+    width: 200px;
+    font-size: 9px;
+    line-height: 23px;
+  }
+
+  td {
+    width: 10px;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .btn-course {
+    font-size: 8px;
+    line-height: 0.9rem;
+    left: 1%;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  .btn-course1 {
+    font-size: 11px;
+    line-height: 2rem;
+    left: 18%;
+    width: 95px;
+    height: 31px;
+    border-radius: 10px;
+  }
+
+  p.steptwo {
+    left: 147px;
+    font-size: 9px;
+  }
+
+  p.stepone {
+    left: 22px;
+    font-size: 9px;
+  }
+}

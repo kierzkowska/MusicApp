@@ -27,7 +27,10 @@ function Register() {
         displayName,
       };
 
-      await axios.post("https://aplikacja-muzyczna.herokuapp.com/auth/", registerData);
+      await axios.post(
+        "https://aplikacja-muzyczna.herokuapp.com/auth/",
+        registerData
+      );
       await getLoggedIn();
       history.push("/");
     } catch (err) {
@@ -61,7 +64,7 @@ function Register() {
         <input
           className="register"
           type="password"
-          placeholder="Potwierdz hasło"
+          placeholder="Confirm password"
           onChange={(e) => setPasswordVerify(e.target.value)}
           value={passwordVerify}
         />

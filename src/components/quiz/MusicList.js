@@ -26,10 +26,9 @@ const Music = () => {
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-
   return (
     <div>
-          <h1 className="musictitle">Spis utworów:</h1>
+      <h1 className="musictitle">Spis utworów:</h1>
       <Track tracks={currentTracks} />
 
       <Pagination
@@ -37,6 +36,11 @@ const Music = () => {
         totalScores={tracks.length}
         paginate={paginate}
       />
+      <footer>
+        {" "}
+        {/* react player licence  */}
+        <p className="react-player-licence">Copyright © 2020 Pete Cook</p>
+      </footer>
     </div>
   );
 };

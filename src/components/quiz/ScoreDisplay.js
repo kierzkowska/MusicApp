@@ -41,6 +41,9 @@ const ScoreDisplay = () => {
         totalScores={scores.length}
         paginate={paginate}
       />
+      <footer>
+        <p className="timeago-license">Copyright © 2016 Hust.cc</p>
+      </footer>
     </div>
   );
 };

@@ -101,7 +101,8 @@ export default function Entry() {
         credentials: "include",
       });
 
-      return history.push("/scores");
+      history.push("/scores");
+      window.location.reload();
     } catch (err) {
       history.push("/musiclist");
     }
@@ -165,6 +166,13 @@ export default function Entry() {
           </div>
         </>
       )}
+      <footer>
+        {" "}
+        {/* react player licence  */}
+        <p className="react-player-licence">Copyright © 2020 Pete Cook</p>
+        {/* react toastify licence */}
+        <p className="react-toastify-licence">Copyright © 2020 Fadi Khadra</p>
+      </footer>
     </div>
   );
 }

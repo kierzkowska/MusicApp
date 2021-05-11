@@ -24,22 +24,24 @@ function AdminReg() {
         passwordVerify,
         displayName,
       };
-
-      await axios.post("https://aplikacja-muzyczna.herokuapp.com/admin/registerA", registerData);
+      await axios.post(
+        "https://aplikacja-muzyczna.herokuapp.com/admin/registerA",
+        registerData
+      );
       await getLoggedIn();
       history.push("/adminPanel");
     } catch (err) {
-        err.response.data.msg && setError(err.response.data.msg);
+      err.response.data.msg && setError(err.response.data.msg);
     }
   }
 
   return (
     <div className="page">
-          {error && (
+      {error && (
         <ErrorNotice message={error} clearError={() => setError(undefined)} />
       )}
       <form className="form" onSubmit={register}>
-      <h2>Zarejestruj Administratora</h2>
+        <h2>Zarejestruj Administratora</h2>
         <label htmlFor="register-email">Email</label>
         <input
           className="register"
@@ -48,7 +50,7 @@ function AdminReg() {
           onChange={(e) => setEmail(e.target.value)}
           value={email}
         />
-         <label htmlFor="register-password">Haslo</label>
+        <label htmlFor="register-password">Haslo</label>
         <input
           className="register"
           type="password"
@@ -59,7 +61,7 @@ function AdminReg() {
         <input
           className="register"
           type="password"
-          placeholder="Potwierdz hasło"
+          placeholder="Confirm password"
           onChange={(e) => setPasswordVerify(e.target.value)}
           value={passwordVerify}
         />
@@ -71,7 +73,7 @@ function AdminReg() {
           onChange={(e) => setDisplayName(e.target.value)}
         />
 
-<input type="submit" value="Zarejestruj" />
+        <input type="submit" value="Zarejestruj" />
       </form>
       <aside>
         <img className="login" src={adminR} alt="autoryzacja" />

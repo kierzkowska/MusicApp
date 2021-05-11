@@ -97,6 +97,15 @@ div .score-section {
   line-height: 3rem;
 }
 
+p.react-player-licence {
+  position: absolute;
+  top: 97%;
+  padding-top: 0.2%;
+}
+p.react-toastify-licence {
+  position: absolute;
+  top: 94%;
+}
 @media (max-width: 1790px) {
   .score-section,
   .answer-section {
@@ -216,7 +225,6 @@ div .score-section {
     top: 130px;
     font-size: 22px;
     line-height: 45px;
-
   }
 
   label.titl,
