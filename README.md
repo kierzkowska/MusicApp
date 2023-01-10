@@ -24,10 +24,9 @@ bądź tuż pod układem menu. Menu nawigacyjne, znajdujące się w górnym pane
 kolejno stronę główną, quiz, czyli widok prowadzący do instrukcji i odbycia rozgrywki, 
 wyniki każdego indywidualnego użytkownika oraz przegląd utworów muzycznych
 
-Adres strony to https://elegant-torvalds-6b5f6b.netlify.app. 
+
 Frontend i backend aplikacji postawione są na dwóch różnych serwerach. Serwer, na którym postawiona jest część backendowa wymaga czasu na 
-połączenie się z bazą danych i z niezbędnymi bibliotekami. Po pomyślnym przekierowaniu na utworzoną stronę aplikacji, automatycznie wyświetlona zostanie strona logowania, wraz 
-z górnym układem menu.
+połączenie się z bazą danych i z niezbędnymi bibliotekami. Po pomyślnym przekierowaniu na utworzoną stronę aplikacji, automatycznie wyświetlona zostanie strona logowania, wraz z górnym układem menu.
 
 
 Strona Serwera aplikacji - repozytorium MusicApplication
