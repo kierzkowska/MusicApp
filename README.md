@@ -31,8 +31,10 @@ połączenie się z bazą danych i z niezbędnymi bibliotekami. Po pomyślnym pr
 
 Strona Serwera aplikacji - repozytorium MusicApplication
 
-
+Interfejs aplikacji przed i po zalogowaniu
 ![image](https://user-images.githubusercontent.com/58340006/229567434-cd8e44b9-e32c-48af-a31e-4d4da1abe0f4.png)
 
+![image](https://user-images.githubusercontent.com/58340006/229567813-c5bac603-0ddb-47a1-a280-3beb02b06c7b.png)
 
-Interfejs aplikacji:
+
+
